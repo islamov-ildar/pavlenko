@@ -1,0 +1,67 @@
+<div class="_modal js-modal" data-modal="modal-feedback">
+  <div class="_modal__bg"></div>
+  <div class="_modal__wrap">
+    <div class="_feedback">
+      <h3 class="_feedback__title">Написать мне</h3>
+      <p class="_feedback__desc">Отправьте заявку и я свяжусь с вами</p>
+      <form action="" class="_feedback__form">
+        <div class="_feedback__item">
+          <div class="_input">
+            <input
+              type="text"
+              name="feedback-name"
+              id="feedback-name"
+              placeholder=" "
+              required
+            />
+            <label for="feedback-name">Имя</label>
+          </div>
+        </div>
+        <div class="_feedback__item">
+          <div class="_input">
+            <input
+              type="tel"
+              name="feedback-phone"
+              id="feedback-phone"
+              placeholder=" "
+              required
+            />
+            <label for="feedback-phone">Телефон</label>
+          </div>
+        </div>
+        <div class="_feedback__item">
+          <div class="_input">
+            <textarea
+              name="feedback-message"
+              id="feedback-message"
+              placeholder=" "
+              required
+            ></textarea>
+            <label for="feedback-message">Сообщение</label>
+          </div>
+        </div>
+        <div class="_feedback__item">
+          <button type="submit" class="_btn _btn--full">
+            Отправить сообщение
+          </button>
+        </div>
+      </form>
+      <p class="_feedback__help">
+        Нажимая на кнопку, вы соглашаетесь с Политикой конфиденциальности
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="_modal js-modal" data-modal="modal-success">
+  <div class="_modal__bg"></div>
+  <div class="_modal__wrap">
+    <div class="_success">
+      <h3 class="_success__title">Спасибо за обращение!</h3>
+      <p class="_success__desc">Ваша сообщение успешно отправлено</p>
+      <div class="_success__back">
+        <button>Вернуться назад</button>
+      </div>
+    </div>
+  </div>
+</div>

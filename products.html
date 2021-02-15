@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Наши товары</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="_header">
+  <div class="_container">
+    <div class="_header-top-part header-grid">
+      <a href="/" class="_header__logo">
+        <img src="img/logo.png" alt="" />
+      </a>
+
+      <p class="_header__description-text">
+        Установка, обслуживание и реставрация бассейнов любого типа и размеров
+      </p>
+      <div class="_header__addressSchedule-text">
+        <div class="_header__address-text">
+          Санкт-Петербург,<br />
+          Ташкентская улица 1 пом. 14Н
+        </div>
+        <div class="_header__schedule-text">
+          Пн - Пт: 09.00-18.00<br />
+          Сб - Вс: Выходной
+        </div>
+      </div>
+      <div class="_social-ico">
+        <a href="#whatsapp" class="_social-ico__item">
+          <svg width="25" height="25" viewBox="0 0 512 512" fill="none">
+            <path
+              d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104
+	l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z"
+              fill="#4caf50"
+            />
+            <path
+              class="ignore"
+              d="M405.024,361.504c-6.176,17.44-30.688,31.904-50.24,36.128c-13.376,2.848-30.848,5.12-89.664-19.264
+	C189.888,347.2,141.44,270.752,137.664,265.792c-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624,26.176-62.304
+	c6.176-6.304,16.384-9.184,26.176-9.184c3.168,0,6.016,0.16,8.576,0.288c7.52,0.32,11.296,0.768,16.256,12.64
+	c6.176,14.88,21.216,51.616,23.008,55.392c1.824,3.776,3.648,8.896,1.088,13.856c-2.4,5.12-4.512,7.392-8.288,11.744
+	c-3.776,4.352-7.36,7.68-11.136,12.352c-3.456,4.064-7.36,8.416-3.008,15.936c4.352,7.36,19.392,31.904,41.536,51.616
+	c28.576,25.44,51.744,33.568,60.032,37.024c6.176,2.56,13.536,1.952,18.048-2.848c5.728-6.176,12.8-16.416,20-26.496
+	c5.12-7.232,11.584-8.128,18.368-5.568c6.912,2.4,43.488,20.48,51.008,24.224c7.52,3.776,12.48,5.568,14.304,8.736
+	C411.2,329.152,411.2,344.032,405.024,361.504z"
+              fill="#fafafa"
+            />
+          </svg>
+        </a>
+        <a href="#viber" class="_social-ico__item">
+          <svg width="25" height="26" viewBox="0 0 25 26" fill="none">
+            <path
+              class="ignore"
+              d="M6.53742 24.7393C6.53742 23.8379 6.39019 21.624 6.3889 20.9682C6.38839 20.6797 6.19246 20.5958 5.95737 20.5203C4.52701 20.0616 3.34864 19.2588 2.51063 17.9876C1.76185 16.8518 1.39314 15.5876 1.23591 14.2544C0.930961 11.6701 0.954563 9.09171 1.5762 6.55436C2.12588 4.31024 3.47083 2.75712 5.69149 1.95358C8.33447 0.997051 11.0557 0.982228 13.8046 1.09088C15.1375 1.14356 16.4521 1.29668 17.7328 1.6597C19.0967 2.04626 20.4421 2.49721 21.4088 3.62866C22.0989 4.43645 22.5129 5.39053 22.7814 6.40714C23.3915 8.71645 23.4037 11.0584 23.1918 13.4214C23.0892 14.5651 22.9576 15.6944 22.5477 16.77C21.7637 18.8272 20.2533 20.0291 18.1338 20.5654C15.7048 21.1799 13.2455 21.4156 10.7494 21.322C10.4037 21.3091 10.1995 21.4847 9.9897 21.7159C8.70462 22.9498 6.63334 24.6498 6.53742 24.7393Z"
+              fill="white"
+            />
+            <path
+              d="M6.53675 25.7839C6.39607 25.7839 6.25424 25.7556 6.12019 25.6972C5.73867 25.5313 5.49193 25.1549 5.49193 24.7389C5.49193 24.274 5.44825 23.3924 5.40961 22.6146C5.38702 22.1593 5.36644 21.7438 5.35442 21.4192C3.76208 20.8497 2.51277 19.8898 1.63784 18.5626C0.862433 17.3863 0.391402 16.0171 0.197766 14.3767C-0.155255 11.3842 -0.0365258 8.74414 0.560933 6.30545C1.20437 3.67923 2.81081 1.88427 5.33564 0.970628C7.19062 0.299413 9.18476 0 11.8016 0C12.3951 0 13.0446 0.0147515 13.8457 0.0464126C15.4539 0.109951 16.7795 0.303083 18.0176 0.654017C19.5028 1.07497 21.0493 1.59896 22.2031 2.94959C22.9296 3.79983 23.4492 4.84343 23.7917 6.13987C24.3532 8.26541 24.4933 10.6087 24.2326 13.5144C24.1275 14.6849 23.9863 15.929 23.5243 17.1417C22.6463 19.4457 20.9188 20.9384 18.3901 21.578C16.2701 22.1145 14.0529 22.3864 11.7998 22.3865C11.4727 22.3865 11.1398 22.3807 10.8085 22.3694C10.7962 22.3822 10.7813 22.398 10.7634 22.4177C10.7473 22.4355 10.7306 22.4526 10.7133 22.4692C9.65155 23.4886 8.06403 24.8203 7.4665 25.3215C7.34964 25.4195 7.26963 25.4864 7.2384 25.5137C7.04232 25.691 6.79133 25.7839 6.53675 25.7839ZM11.8013 2.09006C9.43798 2.09006 7.66316 2.35091 6.04658 2.93592C4.19433 3.6062 3.06396 4.87113 2.5907 6.80267C2.05375 8.99441 1.94999 11.3917 2.27322 14.1316C2.42779 15.441 2.79059 16.5141 3.38266 17.4122C4.04919 18.4231 4.99557 19.1143 6.27605 19.5249C7.23113 19.8312 7.43261 20.4777 7.4334 20.9661C7.43391 21.2398 7.46456 21.8573 7.49694 22.5111C7.49759 22.5246 7.49831 22.5382 7.49903 22.5516C8.08497 22.0452 8.72863 21.4756 9.24024 20.9858C9.45957 20.7456 9.94441 20.2465 10.7882 20.2773C11.1257 20.2899 11.4661 20.2964 11.7995 20.2964C13.8798 20.2964 15.9245 20.0459 17.8771 19.5518C19.7584 19.0758 20.932 18.0735 21.5709 16.3974C21.9384 15.433 22.0548 14.395 22.1506 13.3275C22.3923 10.6349 22.275 8.58274 21.7708 6.67365C21.5101 5.68748 21.1317 4.91337 20.6138 4.30713C19.8384 3.39939 18.6735 3.01234 17.4474 2.66486C16.3725 2.36012 15.2017 2.19174 13.7627 2.13482C12.99 2.10424 12.3666 2.09006 11.8013 2.09006Z"
+              fill="#7C529E"
+            />
+            <path
+              d="M17.6203 15.6173C17.5296 16.4278 17.0847 16.8804 16.6408 17.3127C16.1394 17.8009 15.5426 18.0909 14.8289 17.8052C14.2806 17.5858 13.743 17.3356 13.2153 17.0701C11.5581 16.237 10.104 15.1234 8.84997 13.7637C7.36442 12.1529 6.20267 10.3368 5.5193 8.23646C5.34063 7.68742 5.43425 7.1979 5.86685 6.82149C6.26456 6.47538 6.68687 6.14913 7.13322 5.86979C7.45523 5.66831 7.84545 5.68824 8.13875 5.94981C8.95553 6.67801 9.62365 7.52926 10.0568 8.53975C10.2036 8.88234 10.1712 9.24356 9.83578 9.50894C9.67158 9.63875 9.51687 9.78044 9.35561 9.91399C8.91171 10.2815 8.84263 10.5371 9.02029 11.0807C9.42419 12.3168 10.2921 13.1726 11.3398 13.8623C11.6933 14.095 12.1063 14.2458 12.506 14.3972C12.8466 14.5261 13.1306 14.3842 13.3495 14.1061C13.4637 13.9611 13.5745 13.8133 13.6917 13.6709C14.0258 13.2647 14.6126 13.1305 15.0491 13.4225C15.8157 13.9352 16.5695 14.4699 17.2971 15.0358C17.4805 15.1784 17.5445 15.4738 17.6203 15.6173Z"
+              fill="#7C529E"
+            />
+            <path
+              d="M18.7192 12.1313C18.4306 12.1313 18.1966 11.8973 18.1966 11.6087C18.1966 7.98879 15.2516 5.04388 11.6319 5.04388C11.3434 5.04388 11.1094 4.80988 11.1094 4.52133C11.1094 4.23278 11.3434 3.99878 11.6319 3.99878C15.828 3.99878 19.2417 7.41263 19.2417 11.6087C19.2417 11.8973 19.0079 12.1313 18.7192 12.1313Z"
+              fill="#7C529E"
+            />
+            <path
+              d="M16.7863 12.1316C16.4977 12.1316 16.2637 11.8976 16.2637 11.6091C16.2637 9.05508 14.1859 6.97711 11.6319 6.97711C11.3434 6.97711 11.1094 6.74311 11.1094 6.45456C11.1094 6.16601 11.3434 5.93201 11.6319 5.93201C14.7621 5.93201 17.3088 8.47864 17.3088 11.609C17.3088 11.8976 17.075 12.1316 16.7863 12.1316Z"
+              fill="#7C529E"
+            />
+            <path
+              d="M14.8535 12.1317C14.5649 12.1317 14.331 11.8977 14.331 11.6091C14.331 10.1209 13.1201 8.91009 11.6319 8.91009C11.3434 8.91009 11.1094 8.67609 11.1094 8.38754C11.1094 8.09899 11.3434 7.86499 11.6319 7.86499C13.6964 7.86499 15.376 9.54461 15.376 11.6091C15.376 11.8977 15.1421 12.1317 14.8535 12.1317Z"
+              fill="#7C529E"
+            />
+          </svg>
+        </a>
+        <a href="#insta" class="_social-ico__item">
+          <svg width="23" height="23" viewBox="0 0 23 23" fill="none">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M19.0187 5.36134C19.0187 6.12357 18.4007 6.74134 17.6387 6.74134C16.8766 6.74134 16.2587 6.12357 16.2587 5.36134C16.2587 4.5991 16.8766 3.98134 17.6387 3.98134C18.4009 3.98134 19.0187 4.5991 19.0187 5.36134ZM11.5 15.3333C9.38292 15.3333 7.66673 13.6171 7.66673 11.5C7.66673 9.38292 9.38292 7.66673 11.5 7.66673C13.6171 7.66673 15.3333 9.38292 15.3333 11.5C15.3333 13.6171 13.6171 15.3333 11.5 15.3333ZM11.5 5.59457C8.23849 5.59457 5.59457 8.23849 5.59457 11.5C5.59457 14.7615 8.23849 17.4054 11.5 17.4054C14.7615 17.4054 17.4054 14.7615 17.4054 11.5C17.4054 8.23849 14.7615 5.59457 11.5 5.59457ZM11.5 2.07216C14.5707 2.07216 14.9344 2.08384 16.1469 2.13918C17.2681 2.19039 17.8771 2.37762 18.2823 2.53521C18.819 2.74383 19.2021 2.99305 19.6046 3.39555C20.0071 3.79787 20.2564 4.18097 20.465 4.71788C20.6224 5.12307 20.8098 5.73203 20.861 6.85328C20.9163 8.06599 20.928 8.42968 20.928 11.5004C20.928 14.571 20.9163 14.9347 20.861 16.1473C20.8098 17.2685 20.6226 17.8775 20.465 18.2827C20.2564 18.8194 20.0071 19.2025 19.6046 19.605C19.2023 20.0075 18.8192 20.2567 18.2823 20.4653C17.8771 20.6227 17.2681 20.8101 16.1469 20.8614C14.9344 20.9167 14.5707 20.9284 11.5 20.9284C8.42914 20.9284 8.06545 20.9167 6.85292 20.8614C5.73167 20.8101 5.12271 20.6229 4.71752 20.4653C4.18079 20.2567 3.7977 20.0075 3.3952 19.605C2.99288 19.2027 2.74347 18.8196 2.53485 18.2827C2.37745 17.8775 2.19003 17.2685 2.13882 16.1473C2.08348 14.9345 2.0718 14.5709 2.0718 11.5004C2.0718 8.42968 2.08348 8.06599 2.13882 6.85328C2.19003 5.73203 2.37727 5.12307 2.53485 4.71788C2.74347 4.18115 2.9927 3.79805 3.3952 3.39555C3.79752 2.99305 4.18061 2.74383 4.71752 2.53521C5.12271 2.3778 5.73167 2.19039 6.85292 2.13918C8.06563 2.08384 8.42932 2.07216 11.5 2.07216ZM11.5 0C8.37685 0 7.98513 0.0132969 6.75859 0.0691797C5.53455 0.125062 4.69847 0.319484 3.96714 0.60375C3.21084 0.897539 2.56953 1.29087 1.9302 1.9302C1.29087 2.56953 0.897539 3.21084 0.60375 3.96714C0.319484 4.69865 0.125062 5.53455 0.0691797 6.75859C0.0132969 7.98513 0 8.37685 0 11.5C0 14.6231 0.0132969 15.0149 0.0691797 16.2414C0.125062 17.4654 0.319484 18.3014 0.60375 19.0329C0.897539 19.7892 1.29087 20.4305 1.9302 21.0698C2.56953 21.7091 3.21084 22.1023 3.96714 22.3962C4.69865 22.6805 5.53455 22.8749 6.75859 22.9308C7.98513 22.9867 8.37685 23 11.5 23C14.6231 23 15.0149 22.9867 16.2414 22.9308C17.4654 22.8749 18.3014 22.6805 19.0329 22.3962C19.7892 22.1023 20.4305 21.7091 21.0698 21.0698C21.7091 20.4305 22.1023 19.7892 22.3962 19.0329C22.6805 18.3014 22.8749 17.4654 22.9308 16.2414C22.9867 15.0149 23 14.6231 23 11.5C23 8.37685 22.9867 7.98513 22.9308 6.75859C22.8749 5.53455 22.6805 4.69865 22.3962 3.96714C22.1023 3.21084 21.7091 2.56953 21.0698 1.9302C20.4305 1.29087 19.7892 0.897719 19.0329 0.60375C18.3014 0.319484 17.4654 0.125062 16.2414 0.0691797C15.0149 0.0132969 14.6231 0 11.5 0Z"
+              fill="url(#paint0_radial)"
+            />
+            <defs>
+              <radialGradient
+                id="paint0_radial"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(3.43403 23.0799) scale(29.3882)"
+              >
+                <stop stop-color="#FFB140" />
+                <stop offset="0.2559" stop-color="#FF5445" />
+                <stop offset="0.599" stop-color="#FC2B82" />
+                <stop offset="1" stop-color="#8E40B7" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </a>
+      </div>
+      <div class="_header-contacts">
+        <a href="tel:+ 7 (812) 933-16-55" class="_header-contacts-phone"
+          >+ 7 (812) 933-16-55</a
+        >
+        <a href="mailto:info@idealbass.ru" class="_header-contacts-email"
+          >info@idealbass.ru</a
+        >
+      </div>
+      <div class="_header__callback">
+        <button class="_btn js-open-modal" data-target="modal-feedback">
+          Заказать звонок
+        </button>
+      </div>
+      <div class="_header__toggle">
+        <button class="_header__toggle-btn">
+          <span></span><span></span><span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="_header__bg"></div>
+</header>
+
+<div class="_nav">
+  <nav class="_container _nav__content">
+    <a href="index.html" class="_nav__item">Главная</a>
+    <a href="about-us.html" class="_nav__item">О нас</a>
+    <a href="pools.html" class="_nav__item">Бассейны</a>
+    <a href="services.html" class="_nav__item">Услуги</a>
+    <a href="photogallery.html" class="_nav__item">Фотогалерея</a>
+    <a href="products.html" class="_nav__item">Наши товары</a>
+    <a href="contacts.html" class="_nav__item">Контакты</a>
+  </nav>
+</div>
+
+
+    <section class="_path _container">
+      <a href="#"><div class="_path-item">Главная</div></a>
+      <div class="_path-delimiter"></div>
+      <a href="#"><div class="_path-item">Наши товары</div></a>
+    </section>
+
+    <div class="_title-with-delimiter _container">
+      <h2 class="_title _start-pool__title _title--delimiter _title--primary">
+        Наши товары
+      </h2>
+      <!--      <div class="_title-delimiter _title-delimiter-lower"></div>-->
+    </div>
+
+    <section class="_our-goods__menu _container">
+      <a href="#"><span>Химия</span></a>
+      <a href="#"><span>Оборудование</span></a>
+      <a href="#"
+        ><span class="_our-goods__menu-current-article"
+          >Уход за бассейном</span
+        ></a
+      >
+      <a href="#"><span>Еще оборудование</span></a>
+      <a href="#"><span>Навесное оборудование</span></a>
+    </section>
+
+    <section class="_container _tiles _products-tiles">
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+      <div class="_tile__item">
+  <div class="_tile__item-name">Овальная купель</div>
+  <div class="_tile__item-img">
+    <img src="img/ourGoods/oval-pool.png" alt="oval-pool" />
+  </div>
+  <div class="_product_tile__item-bottom">
+    <div class="_product_tile__item-bottom-description">
+      <div class="_tile__item-material _tile__item-material-product">
+        Материал:
+      </div>
+      <div class="_tile__item-material _tile__item-material-product">
+        Алтайский кедр
+      </div>
+    </div>
+    <!--  <div class="_tile__item-bottom">-->
+    <a href="#" class="_product_tile__item-bottom-link">
+      <div class="_btn-wht-blkbrdr">Посмотреть</div>
+    </a>
+    <div class="_our-goods__goods-tile__item-bottom-price">79 000 руб.</div>
+    <!--  </div>-->
+  </div>
+</div>
+
+    </section>
+
+    <footer class="_footer">
+  <div class="_container">
+    <div class="_footer-top">
+      <div class="_footer-top-emblem-description">
+        <a href="#" class="_footer__logo">
+          <img src="img/logo.png" />
+        </a>
+
+        <div class="_footer__logo-desc">
+          Установка, обслуживание и реставрация бассейнов любого типа и размеров
+        </div>
+      </div>
+      <div class="_footer-menu-grid">
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Бассейны</a>
+        <a href="#">Услуги</a>
+        <a href="#">Фотогалерея</a>
+        <a href="#">Наши товары</a>
+        <a href="#">Контакты</a>
+      </div>
+      <div class="_footer__address">
+        <div class="_footer-address-text-title">Адрес офиса:</div>
+        <div class="_footer-address-text">
+          Санкт-Петербург,<br />
+          Ташкентская улица,<br />
+          дом 1 пом. 14Н
+        </div>
+      </div>
+      <div class="_footer__contacts">
+        <div class="_footer-address-text-title">Контакты:</div>
+        <a
+          href="tel:+ 7 (812) 933-16-55"
+          class="_footer-address-text _footer-address-text--link"
+        >
+          + 7 (812) 933-16-55
+        </a>
+        <a
+          href="mailto:info@idealbass.ru"
+          class="_footer-address-text _footer-address-text--link _footer-address-text--email"
+        >
+          info@idealbass.ru
+        </a>
+        <div
+          class="_footer-address-text _footer__address-text _footer__is-tablet"
+        >
+          Санкт-Петербург,<br />
+          Ташкентская улица,<br />
+          дом 1 пом. 14Н
+        </div>
+      </div>
+    </div>
+    <div class="_footer-bottom">
+      <div class="_footer-bottom-all-right-reserved">
+        2018-2021 год, Санкт-Петербург. Все права защищены.
+      </div>
+      <div class="_footer-bottom-create-label">
+        <div class="_footer-bottom-create-label-text">
+          Создание и продвижение
+        </div>
+        <a
+          target="_blank"
+          href="https://vk.com/smart_site"
+          rel="noreferrer noopener"
+          class="_footer-bottom-create-label-ico"
+          >smartsite</a
+        >
+      </div>
+      <div class="_footer-bottom-social">
+        <div class="_footer-bottom-social-text">Мы в соцсетях</div>
+        <a href="#youtube" class="_footer-bottom-social-ico">
+          <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <path
+              d="M16.2604 8.31327C16.0578 7.57607 15.338 7.03228 14.4715 6.95133C12.4203 6.75938 10.3431 6.75847 8.27609 6.75938C6.2082 6.75847 4.13145 6.75938 2.07956 6.95133C1.21358 7.03246 0.494166 7.57625 0.29183 8.31327C0.00345871 9.36302 0 10.5089 0 11.5898C0 12.6707 2.57695e-08 13.8164 0.288372 14.8662C0.490707 15.6032 1.21012 16.147 2.07654 16.2281C4.12799 16.4203 6.20474 16.421 8.27242 16.4203C10.3403 16.4212 12.4166 16.4203 14.4687 16.2281C15.3347 16.147 16.0546 15.6032 16.2569 14.8662C16.5451 13.8164 16.5466 12.6707 16.5466 11.5898C16.5463 10.5087 16.5485 9.36302 16.2604 8.31327ZM4.71965 9.12689H3.52207V14.4577H2.40965V9.12689H1.2339V8.25369H4.71965V9.12689ZM7.74107 14.4578H6.74042V13.9535C6.34288 14.3353 5.96545 14.5214 5.59774 14.5214C5.27543 14.5214 5.05364 14.412 4.95355 14.1779C4.89908 14.0381 4.86535 13.8168 4.86535 13.4905V9.83511H5.86514V13.2386C5.86514 13.4349 5.86514 13.5368 5.87422 13.5644C5.89822 13.6944 5.97409 13.7603 6.10812 13.7603C6.30872 13.7603 6.51841 13.6308 6.7402 13.3681V9.83511H7.74085L7.74107 14.4578ZM11.5398 13.0704C11.5398 13.4979 11.5055 13.8059 11.4387 14.0019C11.3051 14.3458 11.0377 14.5214 10.6399 14.5214C10.2841 14.5214 9.94082 14.3559 9.60641 14.01V14.458H8.60662V8.25369H9.60641V10.2799C9.92937 9.94684 10.2722 9.77843 10.6399 9.77843C11.0377 9.77843 11.3053 9.9539 11.4387 10.3C11.5059 10.4859 11.5398 10.7916 11.5398 11.2293V13.0704ZM15.3135 12.2991H13.3137V13.1185C13.3137 13.5464 13.4808 13.7601 13.8245 13.7601C14.0708 13.7601 14.2141 13.648 14.2712 13.4242C14.2804 13.3788 14.2936 13.1926 14.2936 12.8567H15.3137V12.9789C15.3137 13.2489 15.3014 13.4349 15.2923 13.5186C15.2588 13.704 15.1801 13.8722 15.0589 14.0203C14.782 14.3561 14.3717 14.5216 13.8494 14.5216C13.3263 14.5216 12.9281 14.3639 12.6391 14.0482C12.427 13.8168 12.3181 13.4525 12.3181 12.9612V11.3421C12.3181 10.8479 12.4147 10.4865 12.6272 10.2529C12.916 9.93652 13.3139 9.77897 13.8248 9.77897C14.3265 9.77897 14.7242 9.93652 15.0044 10.2529C15.2139 10.4865 15.314 10.8479 15.314 11.3421V12.2991H15.3135Z"
+              fill="white"
+            />
+            <path
+              d="M13.8162 10.5325C13.482 10.5325 13.3145 10.7463 13.3145 11.1737V11.6014H14.3142V11.1737C14.314 10.7463 14.1469 10.5325 13.8162 10.5325Z"
+              fill="white"
+            />
+            <path
+              d="M10.1061 10.5325C9.94141 10.5325 9.77452 10.5977 9.60742 10.7362V13.5537C9.77431 13.6939 9.94141 13.7601 10.1061 13.7601C10.3945 13.7601 10.5411 13.5537 10.5411 13.1363V11.1632C10.5411 10.7463 10.3945 10.5325 10.1061 10.5325Z"
+              fill="white"
+            />
+            <path
+              d="M10.6625 6.33309C11.031 6.33309 11.4145 6.14548 11.8168 5.75941V6.26898H12.8274V1.59717H11.8168V5.1678C11.5929 5.43291 11.3806 5.56402 11.1785 5.56402C11.0432 5.56402 10.9636 5.49702 10.9416 5.36573C10.9292 5.33802 10.9292 5.23499 10.9292 5.0367V1.59717H9.92188V5.2913C9.92188 5.62124 9.9556 5.84452 10.0114 5.98595C10.113 6.22262 10.3371 6.33309 10.6625 6.33309Z"
+              fill="white"
+            />
+            <path
+              d="M3.62647 3.72999V6.26898H4.7471V3.72999L6.09514 0H4.96197L4.19738 2.46185L3.40187 0H2.22266C2.45893 0.581102 2.70472 1.1651 2.94099 1.74675C3.30048 2.62103 3.52487 3.28017 3.62647 3.72999Z"
+              fill="white"
+            />
+            <path
+              d="M7.59834 6.33319C8.10461 6.33319 8.49805 6.17365 8.77712 5.85494C8.98918 5.62116 9.09079 5.25283 9.09079 4.7563V3.12038C9.09079 2.62094 8.9894 2.25588 8.77712 2.01992C8.49805 1.70031 8.10483 1.54077 7.59834 1.54077C7.09467 1.54077 6.70145 1.70031 6.42173 2.01992C6.20707 2.25588 6.10547 2.62094 6.10547 3.12038V4.7563C6.10547 5.25283 6.20707 5.62116 6.42173 5.85494C6.70124 6.17365 7.09467 6.33319 7.59834 6.33319ZM7.11607 2.9507C7.11607 2.51845 7.27257 2.30296 7.59834 2.30296C7.92411 2.30296 8.08019 2.51827 8.08019 2.9507V4.91584C8.08019 5.34809 7.92411 5.5643 7.59834 5.5643C7.27257 5.5643 7.11607 5.34809 7.11607 4.91584V2.9507Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="#instagram" class="_footer-bottom-social-ico">
+          <svg width="17" height="17" viewBox="0 0 17 17" fill="none">
+            <path
+              d="M2.43389 0H14.8546C16.0341 0 16.9992 0.873306 16.9992 2.14466V14.5657C16.9992 15.837 16.0341 16.7103 14.8546 16.7103H2.43389C1.25399 16.7103 0.289062 15.837 0.289062 14.5657V2.14466C0.289062 0.873306 1.25399 0 2.43389 0ZM12.4618 1.85659C12.048 1.85659 11.7098 2.19493 11.7098 2.60894V4.40959C11.7098 4.82343 12.048 5.16194 12.4618 5.16194H14.3505C14.7643 5.16194 15.1028 4.82343 15.1028 4.40959V2.60894C15.1028 2.19493 14.7643 1.85659 14.3505 1.85659H12.4618ZM15.1107 7.06674H13.64C13.7791 7.52107 13.8545 8.00233 13.8545 8.50023C13.8545 11.2797 11.5286 13.5328 8.6601 13.5328C5.79175 13.5328 3.46625 11.2797 3.46625 8.50023C3.46625 8.00198 3.5414 7.52089 3.68071 7.06674H2.146V14.1254C2.146 14.4907 2.44488 14.7897 2.81033 14.7897H14.4467C14.8122 14.7897 15.1111 14.4909 15.1111 14.1254V7.06674H15.1107ZM8.65993 5.06706C6.8066 5.06706 5.30396 6.52286 5.30396 8.31888C5.30396 10.1149 6.8066 11.5707 8.65993 11.5707C10.5134 11.5707 12.0162 10.1149 12.0162 8.31888C12.0162 6.52286 10.5136 5.06706 8.65993 5.06706Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
